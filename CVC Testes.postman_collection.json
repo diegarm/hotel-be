@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "46118877-fe5b-4397-898e-3cabf719a21a",
+		"name": "CVC Testes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "API - Buscar por ID de Hotel",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/citys/9626/hotels/0/checkIn/26-10-2020/checkOut/26-10-2020/adults/1/children/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"citys",
+						"9626",
+						"hotels",
+						"0",
+						"checkIn",
+						"26-10-2020",
+						"checkOut",
+						"26-10-2020",
+						"adults",
+						"1",
+						"children",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API - Buscar por ID da Cidade",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/citys/9626/hotels/checkIn/26-10-2020/checkOut/26-10-2020/adults/1/children/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"citys",
+						"9626",
+						"hotels",
+						"checkIn",
+						"26-10-2020",
+						"checkOut",
+						"26-10-2020",
+						"adults",
+						"1",
+						"children",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
